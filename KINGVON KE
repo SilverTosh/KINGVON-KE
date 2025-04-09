@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KINGVON</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #ffffff;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #1a1a1a;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      color: #00ffcc;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem;
+      background: linear-gradient(to right, #1f1f1f, #333);
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      color: #00ffcc;
+    }
+
+    .about, .services {
+      padding: 3rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .services ul {
+      padding-left: 1.2rem;
+    }
+
+    .footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    .footer strong {
+      color: #00ffcc;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">KINGVON</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to KINGVON</h2>
+    <p>Your trusted cybersecurity and digital intelligence partner.</p>
+  </section>
+
+  <section id="about" class="about">
+    <h3>About KINGVON</h3>
+    <p>We provide cutting-edge cybersecurity solutions tailored for individuals and enterprises.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h3>Our Services</h3>
+    <ul>
+      <li>Penetration Testing</li>
+      <li>Digital Forensics</li>
+      <li>Network Security</li>
+      <li>Data Recovery</li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 KINGVON. All rights reserved.</p>
+    <p>Contact: <strong>0720326316</strong></p>
+  </footer>
+</body>
+</html>
